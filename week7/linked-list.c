@@ -347,7 +347,7 @@ void printList(headNode* h)
 
 	while(p != NULL) //p가 NULL이 아닐동안 
     {
-		printf("[ [%d]=%d ] ", i, p->key); //i값과 p의 key값 출력
+		printf("[ [%d]=%d ] ", i, p->key); //i값과 p의 key값 출력하기
 		p = p->link; //p에 p의 link값 할당
 		i++; 
 	}
