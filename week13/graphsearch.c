@@ -117,7 +117,7 @@ void insertEdge(Graph* graph, int src, int dest) {
     graph->adjLists[dest] = newNode;
 }
 
-// DFS 탐색 함수
+
 void DFS(Graph* graph, int vertex) {
     Node* adjList = graph->adjLists[vertex];
     Node* temp = adjList;
